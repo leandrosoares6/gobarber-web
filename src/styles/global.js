@@ -19,11 +19,10 @@ export default createGlobalStyle`
 
   html, body, #root {
     height: 100%;
-
   }
 
   body {
-    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased !important;
   }
 
   body, input, button {
