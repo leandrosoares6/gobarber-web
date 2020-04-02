@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   max-width: 600px;
-  margin: 50px auto;
+  margin: 30px auto;
 
   display: flex;
   flex-direction: column;
@@ -42,7 +42,7 @@ export const Time = styled.li`
   strong {
     display: block;
     color: ${props => (props.available ? '#999' : '#7159c1')};
-    font-size: 20px;
+    font-size: 16px;
     font-weight: normal;
   }
 
